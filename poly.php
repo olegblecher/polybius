@@ -6,7 +6,7 @@ $array[] = array('l','m','n','o','p');
 $array[] = array('q','r','s','t','u');
 $array[] = array('v','w','x','y','z');
 
-$str= "2315313134";
+$str= "2315313134"; //the encrypted data goes here, this one simply generates the word "hello"
 
 for ($c = 0; $c < strlen($str); $c+=2) {
         $d = $c + 1;
